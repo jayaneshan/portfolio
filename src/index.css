@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* 1. Map Custom Fonts */
+@theme {
+  --font-dot: "NDot55", sans-serif;
+  --font-mono: "LetteraMono", monospace;
+  --font-body: "NType82", sans-serif;
+}
+
+/* 2. Load the actual font files */
+@font-face {
+  font-family: 'NDot55';
+  src: url('/fonts/Ndot55-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'LetteraMono';
+  src: url('/fonts/LetteraMonoLL-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NType82';
+  src: url('/fonts/NType82-Regular.otf') format('opentype');
+}
+
+/* 3. Base Theme */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "NType82", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 4. The Exact Nothing Light Grid 
+   Pure white background with tiny black dots spaced widely apart (64px) 
+*/
+.bg-nothing-light {
+  background-color: #f1f1f1;
+  background-image: radial-gradient(circle, #323030 2px, transparent 1px);
+  background-size: 153px 153px;
+}
+
+/* 5. Custom Highlight Selection */
+::selection {
+  background-color: hsl(180, 1%, 35%);
+  color: #fff;
+}
