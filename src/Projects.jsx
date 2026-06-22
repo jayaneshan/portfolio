@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import projectThumbnail from './assets/project-bg.png'; 
 
 function SpecAccordion({ title, children, isOpen, onToggle }) {
   return (
@@ -34,7 +35,7 @@ export default function Projects() {
       id: 'biotune',
       title: 'BIOTUNE',
       subtitle: 'Music Player',
-      bgImage: '/project-bg.png', 
+      bgImage: projectThumbnail,
       websiteUrl: 'https://github.com',
       githubUrl: 'https://github.com',
       specs: {
