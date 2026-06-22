@@ -109,7 +109,7 @@ export default function Projects() {
                     <path d="M8.91 0C3.989 0 0 3.98925 0 8.91V87.12C0 93.6812 5.31932 99 11.88 99H87.12C93.6807 99 99 93.6812 99 87.12V20.79C99 14.2288 93.6807 8.91 87.12 8.91H55.52C51.1017 8.91 47.6171 4.6984 44.1638 1.94227C42.6408 0.726662 40.7103 0 38.61 0H8.91Z" className="fill-black dark:fill-white" />
                   </svg>
                 </div>
-                <span className="font-dot text-xs uppercase tracking-widest text-black whitespace-nowrap">About</span>
+                <span className="font-dot text-md uppercase tracking-widest text-black whitespace-nowrap">About</span>
               </button>
             </div>
 
@@ -119,7 +119,7 @@ export default function Projects() {
                 <h1 className="font-dot text-5xl md:text-6xl text-black uppercase tracking-wider mb-2">
                   {project.title}
                 </h1>
-                <p className="font-mono text-gray-600 text-sm md:text-base tracking-wide max-w-xl mx-auto uppercase">
+                <p className="font-mono text-gray-600 text-md md:text-base tracking-wide max-w-xl mx-auto uppercase">
                   {project.subtitle}
                 </p>
               </div>
@@ -133,7 +133,7 @@ export default function Projects() {
                     <path d="M8.91 0C3.989 0 0 3.98925 0 8.91V87.12C0 93.6812 5.31932 99 11.88 99H87.12C93.6807 99 99 93.6812 99 87.12V20.79C99 14.2288 93.6807 8.91 87.12 8.91H55.52C51.1017 8.91 47.6171 4.6984 44.1638 1.94227C42.6408 0.726662 40.7103 0 38.61 0H8.91Z" className="fill-black dark:fill-white" />
                   </svg>
                 </div>
-                <span className="font-dot text-xs uppercase tracking-widest text-black whitespace-nowrap">Website</span>
+                <span className="font-dot text-md uppercase tracking-widest text-black whitespace-nowrap">Website</span>
               </a>
 
               <a href={project.githubUrl} target="_blank" rel="noreferrer" className="group flex flex-col items-center gap-2">
@@ -142,7 +142,7 @@ export default function Projects() {
                     <path d="M8.91 0C3.989 0 0 3.98925 0 8.91V87.12C0 93.6812 5.31932 99 11.88 99H87.12C93.6807 99 99 93.6812 99 87.12V20.79C99 14.2288 93.6807 8.91 87.12 8.91H55.52C51.1017 8.91 47.6171 4.6984 44.1638 1.94227C42.6408 0.726662 40.7103 0 38.61 0H8.91Z" className="fill-black dark:fill-white" />
                   </svg>
                 </div>
-                <span className="font-dot text-xs uppercase tracking-widest text-black text-center leading-none whitespace-nowrap">Github</span>
+                <span className="font-dot text-md uppercase tracking-widest text-black text-center leading-none whitespace-nowrap">Github</span>
               </a>
             </div>
 

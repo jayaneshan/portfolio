@@ -58,20 +58,18 @@ export default function About() {
           <ul className="space-y-4 font-mono text-xs uppercase tracking-widest text-gray-600 leading-relaxed">
             <li className="flex gap-3">
               <span className="text-black font-bold">/</span> 
-              <span><strong className="text-black">Web Development Training (8 Days):</strong> Hands-on training in front-end and basic back-end web development using HTML, CSS, and JavaScript.</span>
+              <span><strong className="text-black">NPTEL:</strong> Privacy and Security in Online Social Media</span>
             </li>
             <li className="flex gap-3">
               <span className="text-black font-bold">/</span> 
-              <span>NPTEL: Privacy and Security in Online Social Media</span>
+              <span><strong className="text-black">NPTEL:</strong> social Networks</span>
             </li>
-            <li className="flex gap-3">
+                        <li className="flex gap-3">
               <span className="text-black font-bold">/</span> 
-              <span>NPTEL: Social Networks</span>
+              <span><strong className="text-black">NPTEL:</strong> Human Computer Interaction</span>
             </li>
-            <li className="flex gap-3">
-              <span className="text-black font-bold">/</span> 
-              <span>KEC Hackathon: Team-based problem solving under time constraints</span>
-            </li>
+
+
           </ul>
         </section>
       </div>

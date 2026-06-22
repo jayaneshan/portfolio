@@ -666,7 +666,7 @@ export default function App() {
               <div className="flex flex-col gap-15 w-full items-center lg:items-start lg:-ml-12">
                 {/* LinkedIn */}
                 <a 
-                  href="https://linkedin.com" target="_blank" rel="noreferrer"
+                  href="https://linkedin.com/in/jayaneshan" target="_blank" rel="noreferrer"
                   className="font-mono text-xs uppercase tracking-widest border border-gray-300 bg-white/80 hover:-translate-y-1 transition-transform duration-200 rounded-lg h-12 w-56 grid grid-cols-[24px_1fr_24px] items-center text-center px-3 shadow-sm"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="justify-self-start">
@@ -678,7 +678,7 @@ export default function App() {
 
                 {/* GitHub */}
                 <a 
-                  href="https://github.com" target="_blank" rel="noreferrer"
+                  href="https://github.com/jayaneshan" target="_blank" rel="noreferrer"
                   className="font-mono text-xs uppercase tracking-widest border border-gray-300 bg-white/80 hover:-translate-y-1 transition-transform duration-200 rounded-lg h-12 w-56 grid grid-cols-[24px_1fr_24px] items-center text-center px-3 shadow-sm"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="justify-self-start">
@@ -690,7 +690,7 @@ export default function App() {
 
                 {/* LeetCode */}
                 <a 
-                  href="https://leetcode.com" target="_blank" rel="noreferrer"
+                  href="https://leetcode.com/jayaneshan" target="_blank" rel="noreferrer"
                   className="font-mono text-xs uppercase tracking-widest border border-gray-300 bg-white/80 hover:-translate-y-1 transition-transform duration-200 rounded-lg h-12 w-56 grid grid-cols-[24px_1fr_24px] items-center text-center px-3 shadow-sm"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="justify-self-start">
@@ -738,16 +738,18 @@ export default function App() {
                 </a>
 
                 {/* Resume */}
-                <button 
-                  className="font-mono text-xs uppercase tracking-widest border border-gray-300 bg-white/80 hover:-translate-y-1 transition-transform duration-200 rounded-lg h-12 w-56 grid grid-cols-[24px_1fr_24px] items-center text-center px-3 shadow-sm"
-                >
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="justify-self-start">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                    <polyline points="14 2 14 8 20 8"></polyline>
-                  </svg>
-                  <span className="w-full text-center">RESUME</span>
-                  <div className="w-6" />
-                </button>
+                <a href="https://drive.google.com/file/d/1diMF42I5C_DJb3qCCLVL3_xB39paV89B/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <button 
+                    className="font-mono text-xs uppercase tracking-widest border border-gray-300 bg-white/80 hover:-translate-y-1 transition-transform duration-200 rounded-lg h-12 w-56 grid grid-cols-[24px_1fr_24px] items-center text-center px-3 shadow-sm"
+                  >
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="justify-self-start">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                    </svg>
+                    <span className="w-full text-center">RESUME</span>
+                    <div className="w-6" />
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -764,7 +766,7 @@ export default function App() {
                       <path d="M8.91 0C3.989 0 0 3.98925 0 8.91V87.12C0 93.6812 5.31932 99 11.88 99H87.12C93.6807 99 99 93.6812 99 87.12V20.79C99 14.2288 93.6807 8.91 87.12 8.91H55.52C51.1017 8.91 47.6171 4.6984 44.1638 1.94227C42.6408 0.726662 40.7103 0 38.61 0H8.91Z" />
                     </svg>
                   </div>
-                  <span className="font-dot text-xs uppercase tracking-widest">{folder}</span>
+                  <span className="font-dot text-sm uppercase tracking-widest">{folder}</span>
                 </button>
               ))}
             </div>
